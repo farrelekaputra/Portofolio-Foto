@@ -10,16 +10,16 @@ import street9 from "../assets/street/1766854790066.jpg"
 
 const StreetPhoto = () => {
     return (
-        <ul className="mainClass flex flex-col w-full gap-4">
-            <li><img src={street1} classname="md:w-1/2" alt="Street 1" /></li>
-            <li><img src={street2} classname="md:w-1/2" alt="Street 2" /></li>
-            <li><img src={street3} classname="md:w-1/2" alt="Street 3" /></li>
-            <li><img src={street4} classname="md:w-1/2" alt="Street 4" /></li>
-            <li><img src={street5} classname="md:w-1/2" alt="Street 5" /></li>
-            <li><img src={street6} classname="md:w-1/2" alt="Street 6" /></li>
-            <li><img src={street7} classname="md:w-1/2" alt="Street 7" /></li>
-            <li><img src={street8} classname="md:w-1/2" alt="Street 8" /></li>
-            <li><img src={street9} classname="md:w-1/2" alt="Street 9" /></li>
+        <ul className="mainClass flex flex-wrap gap-4 md:gap-8">
+            <li className="w-full md:w-[calc(31%-0.31rem)] aspect-[2/3] overflow-hidden"><img src={street1} className="w-full h-full object-cover" alt="Street 1" /></li>
+            <li className="w-full md:w-[calc(31%-0.31rem)] aspect-[2/3] overflow-hidden"><img src={street2} className="w-full h-full object-cover" alt="Street 2" /></li>
+            <li className="w-full md:w-[calc(31%-0.31rem)] aspect-[2/3] overflow-hidden"><img src={street3} className="w-full h-full object-cover" alt="Street 3" /></li>
+            <li className="w-full md:w-[calc(31%-0.31rem)] aspect-[2/3] overflow-hidden"><img src={street4} className="w-full h-full object-cover" alt="Street 4" /></li>
+            <li className="w-full md:w-[calc(31%-0.31rem)] aspect-[2/3] overflow-hidden"><img src={street5} className="w-full h-full object-cover" alt="Street 5" /></li>
+            <li className="w-full md:w-[calc(31%-0.31rem)] aspect-[2/3] overflow-hidden"><img src={street6} className="w-full h-full object-cover" alt="Street 6" /></li>
+            <li className="w-full md:w-[calc(31%-0.31rem)] aspect-[2/3] overflow-hidden"><img src={street7} className="w-full h-full object-cover" alt="Street 7" /></li>
+            <li className="w-full md:w-[calc(31%-0.31rem)] aspect-[2/3] overflow-hidden"><img src={street8} className="w-full h-full object-cover" alt="Street 8" /></li>
+            <li className="w-full md:w-[calc(31%-0.31rem)] aspect-[2/3] overflow-hidden"><img src={street9} className="w-full h-full object-cover" alt="Street 9" /></li>
         </ul>
     )
 }

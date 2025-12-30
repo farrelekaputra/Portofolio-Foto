@@ -15,8 +15,8 @@ const Halaman1 = () => {
         <button
           onClick={() => setActiveTab("street")}
           className={activeTab === "street"
-            ? "font-bold border-b-2 border-b-blue-400 bg-transparent rounded-none focus:outline-none"
-            : "opacity-60 hover:opacity-100 bg-transparent border-none rounded-none focus:outline-none"}
+            ? "font-bold border-b-2 border-b-blue-400 bg-transparent rounded-none focus:outline-none text-lg"
+            : "opacity-60 hover:opacity-100 bg-transparent border-none rounded-none focus:outline-none text-lg"}
         >
           Street
         </button>
@@ -24,8 +24,8 @@ const Halaman1 = () => {
         <button
           onClick={() => setActiveTab("portrait")}
           className={activeTab === "portrait"
-            ? "font-bold border-b-2 border-b-blue-400 bg-transparent rounded-none focus:outline-none"
-            : "opacity-60 hover:opacity-100 bg-transparent border-none rounded-none focus:outline-none"}
+            ? "font-bold border-b-2 border-b-blue-400 bg-transparent rounded-none focus:outline-none text-lg"
+            : "opacity-60 hover:opacity-100 bg-transparent border-none rounded-none focus:outline-none text-lg"}
         >
           Portrait
         </button>
@@ -33,8 +33,8 @@ const Halaman1 = () => {
         <button
           onClick={() => setActiveTab("about")}
           className={activeTab === "about"
-            ? "font-bold border-b-2 border-b-blue-400 bg-transparent rounded-none focus:outline-none"
-            : "opacity-60 hover:opacity-100 bg-transparent border-none rounded-none focus:outline-none"}
+            ? "font-bold border-b-2 border-b-blue-400 bg-transparent rounded-none focus:outline-none text-lg"
+            : "opacity-60 hover:opacity-100 bg-transparent border-none rounded-none focus:outline-none text-lg"}
         >
           About Me
         </button>
