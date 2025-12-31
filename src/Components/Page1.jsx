@@ -7,8 +7,8 @@ const Halaman1 = () => {
   const [activeTab, setActiveTab] = useState("street")
 
   return (
-    <div className="px-8 md:px-20 mb-24">
-        <div className="border-t-2 sticky top-0"></div>
+    <div id="gallery" className="px-8 md:px-20 mb-24 mt-36 md:mt-0">
+        <div className="border-t-2 md:block hidden sticky top-0"></div>
 
       {/* TAB HEADER */}
       <header className="flex gap-8 pb-4 mb-8 mt-12">
