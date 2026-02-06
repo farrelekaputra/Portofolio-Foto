@@ -11,7 +11,7 @@ const Halaman1 = () => {
         <div className="border-t-2 md:block hidden sticky top-0"></div>
 
       {/* TAB HEADER */}
-      <header className="flex gap-8 pb-4 mb-8 mt-12">
+      <header className="flex md:gap-8 gap-4 pb-2 md:pb-4 mb-4 md:mb-8 mt-8 md:mt-12">
         <button
           onClick={() => setActiveTab("street")}
           className={activeTab === "street"
