@@ -28,7 +28,7 @@ const LandingPage = () => {
           behavior:"smooth",
         })
       }}
-        className="absolute bottom-8 md:bottom-12 left-1/2 -translate-x-1/2 z-40 p-2 md:w-1/4 w-1/3 border-2 bg-white text-gray-800">Explore Gallery</button>
+        className="absolute bottom-16 md:bottom-12 left-1/2 -translate-x-1/2 z-40 p-2 md:w-1/4 w-1/3 border-2 bg-white text-gray-800">Explore Gallery</button>
       <img src={me} alt="foreground" className="absolute object-[40%_center] inset-0 w-full h-full object-cover z-20 scale-105" />
     </section>
     // <div className="kontenUtama px-8 md:px-20 pt-24 flex h-screen">
