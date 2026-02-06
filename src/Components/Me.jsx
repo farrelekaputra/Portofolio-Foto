@@ -2,7 +2,7 @@ import { Icon } from "@iconify/react"
 
 const AboutMe = () => {
     return (
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 w-full max-w-4xl">
             <h2 className="subheader text-lg">If you’d like to collaborate or invite me, feel free to contact me using the details below.</h2>
             <ul className="listSosmed flex flex-col w-full text-lg gap-2">
                 <li className="flex items-center gap-2">

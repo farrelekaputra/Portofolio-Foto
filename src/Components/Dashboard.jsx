@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react"
 import imgMe from "../assets/me1.png"
 import { Icon } from "@iconify/react"
-import background from "../assets/bg.png"
-import me from "../assets/fg.png"
+import background from "../assets/bg.webp"
+import me from "../assets/fg.webp"
 
 const LandingPage = () => {
   const [isLight, setIsLight] = useState(true)

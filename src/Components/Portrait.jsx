@@ -1,9 +1,9 @@
-import Portrait1 from "../assets/portrait/1.jpg"
-import Portrait2 from "../assets/portrait/2.jpg"
-import Portrait3 from "../assets/portrait/3.jpg"
-import Portrait4 from "../assets/portrait/4.jpg"
-import Portrait5 from "../assets/portrait/5.jpg"
-import Portrait6 from "../assets/portrait/6.jpg"
+import Portrait1 from "../assets/portrait/1.webp"
+import Portrait2 from "../assets/portrait/2.webp"
+import Portrait3 from "../assets/portrait/3.webp"
+import Portrait4 from "../assets/portrait/4.webp"
+import Portrait5 from "../assets/portrait/5.webp"
+import Portrait6 from "../assets/portrait/6.webp"
 
 const PortraitPhoto = () => {
     return (
