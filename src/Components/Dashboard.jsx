@@ -15,7 +15,7 @@ const LandingPage = () => {
   return (
     <section className="relative w-full h-screen overflow-hidden">
       <img src={background} alt="Background" className="absolute object-[40%_center] inset-0 w-full h-full object-cover z-0 scale-105" />
-      <div className="teks w-full absolute inset-0 flex flex-col mt-20 md:mt-0 md:justify-center justify-start md:gap-44 gap-28 text-white px-6 md:px-8">
+      <div className="teks w-full absolute inset-0 flex flex-col mt-24 md:mt-0 md:justify-center justify-start md:gap-44 gap-28 text-white px-6 md:px-8">
         <h1 className="w-full text-5xl mt-2 md:mt-0 z-10 mb-48 md:mb-0 md:ms-32 text-start md:text-7xl font-bold">Hi! I'm Farrel</h1>
         <p className="max-w-2xl z-30 mt-8 md:mt-0 text-justify md:ms-96 md:me-64 md:text-end text-md md:text-lg leading-relaxed">
           I'm a beginner photographer based in Central Java, Indonesia, who has been exploring photography for the past six months. I mostly shoot street photography, with some portrait work along the way. 
@@ -28,7 +28,7 @@ const LandingPage = () => {
           behavior:"smooth",
         })
       }}
-        className="absolute bottom-12 left-1/2 -translate-x-1/2 z-40 p-2 md:w-1/4 w-1/3 border-2 bg-white text-gray-800">Explore Gallery</button>
+        className="absolute bottom-8 md:bottom-12 left-1/2 -translate-x-1/2 z-40 p-2 md:w-1/4 w-1/3 border-2 bg-white text-gray-800">Explore Gallery</button>
       <img src={me} alt="foreground" className="absolute object-[40%_center] inset-0 w-full h-full object-cover z-20 scale-105" />
     </section>
     // <div className="kontenUtama px-8 md:px-20 pt-24 flex h-screen">
