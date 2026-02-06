@@ -36,7 +36,7 @@ const Halaman1 = () => {
             ? "font-bold border-b-2 border-b-blue-400 bg-transparent rounded-none focus:outline-none text-lg"
             : "opacity-60 hover:opacity-100 bg-transparent border-none rounded-none focus:outline-none text-lg"}
         >
-          About Me
+          About
         </button>
       </header>
 
