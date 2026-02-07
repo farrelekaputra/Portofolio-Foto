@@ -6,8 +6,8 @@ export default {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        ephesis: ['"Ephesis"', 'cursive']}
+      // Nah, konfigurasi font atau warna tambahan kamu MASUKIN DI SINI!
+      // Kalau ditaruh di luar 'extend', settingan default Tailwind bakal ilang semua!
     },
   },
   plugins: [],
